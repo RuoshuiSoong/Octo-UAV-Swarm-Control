@@ -18,6 +18,8 @@ This repository contains the system architecture and core control logic for an a
 
 The swarm executes highly synchronized, pre-programmed 3D flight trajectories based on visual positioning. The project highlights the practical application of kinematics, 3D spatial geometry, network synchronization, and closed-loop feedback systems in a real-world physical environment.
 
+> **Historical Archive Note:** > Please note that the original Python source code for this 2021 project was lost during a cross-continental hardware migration. This repository serves as a functional and structural reconstruction, documenting the core system architecture, visual odometry strategies, and swarm synchronization workflows based on original competition video logs.
+
 ## 🛠 Core Technical Features
 
 ### 1. Multi-Agent Synchronization (8 UAVs)
@@ -43,3 +45,8 @@ The swarm executes highly synchronized, pre-programmed 3D flight trajectories ba
 ## 🚀 Future Enhancements
 * Integrate reinforcement learning algorithms for dynamic obstacle avoidance.
 * Implement a localized GUI simulator to preview multi-agent trajectories before physical deployment.
+
+## 📚 Project Documentation
+For a deeper dive into the system architecture and engineering requirements, please refer to the following documents:
+* [Software Requirements Specification (SRS)](./Requirements_Analysis.md)
+* [System Architecture & Flight Workflow](./System_Workflow.md)
