@@ -18,7 +18,7 @@ This repository contains the system architecture and core control logic for an a
 
 The swarm executes highly synchronized, pre-programmed 3D flight trajectories based on visual positioning. The project highlights the practical application of kinematics, 3D spatial geometry, network synchronization, and closed-loop feedback systems in a real-world physical environment.
 
-> **Historical Archive Note:** > Please note that the original Python source code for this 2021 project was lost during a cross-continental hardware migration. This repository serves as a functional and structural reconstruction, documenting the core system architecture, visual odometry strategies, and swarm synchronization workflows based on original competition video logs.
+> **Note on the Missing Source Code:** Since this was a project I built back in 8th grade for a 2021 competition, I unfortunately lost the original Python scripts when I moved to Canada and switched laptops. However, the core logic is still burned into my brain! I created this repository to reconstruct how I designed the system, the math behind the drone synchronization, and how I stopped them from crashing into the nets, using the surviving video logs as my reference.
 
 ## 🛠 Core Technical Features
 
